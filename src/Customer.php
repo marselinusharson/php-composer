@@ -8,8 +8,8 @@ namespace MarselinusHarsonRewo\Belajar{
 
         }
 
-        public function sayHello(string $name):string{
-            return "Hello $name, My name is $this->name".PHP_EOL;
+        public function sayHello(string $name = "Guest"):string{
+            return "Hello $name, My name is Customer $this->name".PHP_EOL;
         }
     }
 }
