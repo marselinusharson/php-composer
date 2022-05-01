@@ -1,0 +1,19 @@
+{
+  "name": "marselinus/hello",
+  "description": "Belajar composer library",
+  "type": "library",
+  "authors": [
+    {
+      "name": "marselinusharson",
+      "email": "marselinus@undiksha.ac.id"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MarselinusHarsonRewo\\Belajar\\": "src/"
+    }
+  }
+}
